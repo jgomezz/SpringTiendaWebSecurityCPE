@@ -8,11 +8,15 @@
 
     <th:block th:fragment="content">
 
+		<div class="alert alert-warning" th:if="${#authorization.expression('isAnonymous()')}">
+			Ud. no est&aacute; autenticado
+		</div>
+
 		<div class="mt-5 col-md-4 offset-md-4 col-sm-8 offset-sm-2">
 
-            <div class="card card-default" >
+            <div class="card card-default" th:if="${#authorization.expression('isAuthenticated()')}">
                 <div class="card-header">
-                    Bienvenido a la aplicación
+                    Bienvenido a la aplicaci&oacute;n
                 </div>
 
             </div>
