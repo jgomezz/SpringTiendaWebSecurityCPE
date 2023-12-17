@@ -9,7 +9,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
 import pe.edu.tecsup.tienda.entities.Categoria;
-import pe.edu.tecsup.tienda.services.CategoriaService;
 
 @SpringBootTest
 class CategoriaServiceImplTest {

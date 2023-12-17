@@ -11,7 +11,6 @@ import org.springframework.boot.test.context.SpringBootTest;
 
 import pe.edu.tecsup.tienda.entities.Categoria;
 import pe.edu.tecsup.tienda.entities.Producto;
-import pe.edu.tecsup.tienda.services.ProductoService;
 
 @SpringBootTest
 class ProductoServiceImplTest {
